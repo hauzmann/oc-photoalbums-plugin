@@ -1,6 +1,6 @@
 # Photo Albums plugin
 
-This is [OctoberCMS](http://octobercms.com) plugin allowing to create, edit and display photos arranged in albums. Each Photo is a model with image attached to it.
+This is [WinterCMS](http://wintercms.com) plugin allowing to create, edit and display photos arranged in albums. Each Photo is a model with image attached to it.
 And Album is an another model, owning multiple of Photos. 
 
 The aim of this approach is to treat each photo as a separate entity which can be displayed separately, have it's own title, description, could have comments of its own etc. 
@@ -54,7 +54,7 @@ Uploading multiple photos is supported with the [Dropzone.js](http://www.dropzon
 
 ### Dialog to insert photos into Blog posts
 
-You can insert photos from galleries created by this plugin into [Blog](https://octobercms.com/plugin/rainlab-blog) posts. 
+You can insert photos from galleries created by this plugin into [Blog](https://winterrcms.com/plugin/winter-blog) posts. 
 Just click on a camera icon near media manager in the post markdown editor, then select album and photo.  Markdown code for selected photo will appear in the editor.
 
 ### Markdown syntax
