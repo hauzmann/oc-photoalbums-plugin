@@ -54,7 +54,7 @@ Uploading multiple photos is supported with the [Dropzone.js](http://www.dropzon
 
 ### Dialog to insert photos into Blog posts
 
-You can insert photos from galleries created by this plugin into [Blog](https://winterrcms.com/plugin/winter-blog) posts. 
+You can insert photos from galleries created by this plugin into [WinterBlog] posts. 
 Just click on a camera icon near media manager in the post markdown editor, then select album and photo.  Markdown code for selected photo will appear in the editor.
 
 ### Markdown syntax
