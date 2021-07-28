@@ -10,7 +10,9 @@
         <div class="layout-row">
             <div class="form-group">
                 <?= Form::label('album', e(trans('graker.photoalbums::lang.plugin.album_to_upload')) ) ?>
-                <?= Form::select('album', $this->getAlbumsList()) ?>
+                <select class="form-control custom-select select2-hidden-accessible"
+                    <?= Form::select('album', ['-- Please Select Album --'] + $this->getAlbumsList(), null, ['required']) ?>
+                </select>
             </div>
             <div class="form-group">
                 <div class="field-fileupload" data-url="<?= Backend::url('graker/photoalbums/upload/post_files') ?>">
