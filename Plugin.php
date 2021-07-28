@@ -26,7 +26,7 @@ class Plugin extends PluginBase
           'description' => 'graker.photoalbums::lang.plugin.description',
           'author'      => 'Graker',
           'icon'        => 'icon-camera-retro',
-          'homepage'    => 'https://github.com/graker/oc-photoalbums-plugin',
+          'homepage'    => 'https://github.com/hauzmann/wn-photoalbums-plugin',
         ];
     }
 
@@ -147,7 +147,7 @@ class Plugin extends PluginBase
     public function registerListColumnTypes() {
         return [
           'is_front' => [$this, 'evalIsFrontListColumn'],
-          'image' => [$this, 'evalImageListColumn'],
+          'picture' => [$this, 'evalImageListColumn'],
         ];
     }
 
