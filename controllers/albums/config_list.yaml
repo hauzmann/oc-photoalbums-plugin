@@ -23,6 +23,8 @@ recordsPerPage: 20
 # Displays the list column set up button
 showSetup: true
 
+showCheckboxes: true
+
 # Displays the sorting link on each column
 showSorting: true
 
