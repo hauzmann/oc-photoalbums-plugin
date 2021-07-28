@@ -5,7 +5,7 @@
 columns:
     id:
         label: graker.photoalbums::lang.plugin.photo
-        type: image
+        type: photo
         width: 100
         height: 100
 
