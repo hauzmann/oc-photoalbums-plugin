@@ -8,7 +8,7 @@
 <?php if (!$this->fatalError): ?>
     <?= Form::open(['file' => TRUE, 'class' => 'layout',]) ?>
         <div class="layout-row">
-            <div class="form-group">
+            <div class="form-group is-required">
                 <?= Form::label('album', e(trans('graker.photoalbums::lang.plugin.album_to_upload')) ) ?>
                 <select class="form-control custom-select select2-hidden-accessible"
                     <?= Form::select('album', ['-- Please Select Album --'] + $this->getAlbumsList(), null, ['required']) ?>
